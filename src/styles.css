@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.card{
+    background: rgba(76, 76, 76, 0.733);
+    width: 600px;
+    height: 260px;
+    margin: 0 auto;
+    margin-top: calc(50vh - 130px);
+    padding: 20px;
+    box-shadow: 15px 17px 15px 0px rgba(0,0,0,0.75);
+    position: relative;
+}
+
+.phrase{
+    display: flex;
+}
+
+.icon{
+    font-size: 50px;
+    margin-right: 15px;
+}
+
+.author{
+    text-align: right;
+    margin-top: 20px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.author button{
+    margin-top: 15px;
+    background: none;
+    border:none;
+}
